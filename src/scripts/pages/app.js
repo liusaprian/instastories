@@ -32,6 +32,8 @@ export default class App {
   }
  
   async #setupPushNotification() {
+    const isLogin = !!getAccessToken();
+    if(!isLogin) return;
     const pushNotificationTools = document.getElementById('push-notification-tools');
     const isSubscribed = await isCurrentPushSubscriptionAvailable();
     if (isSubscribed) {
