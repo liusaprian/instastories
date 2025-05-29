@@ -1,6 +1,6 @@
 {
-  "id": "/#/",
-  "start_url": "/#/",
+  "id": "/instastories/#/",
+  "start_url": "/instastories/#/",
   "scope": "/",
   "name": "Instastories App",
   "short_name": "Instastories",
@@ -65,7 +65,7 @@
       "name": "Story Baru",
       "short_name": "Baru",
       "description": "Bagikan story baru!",
-      "url": "/#/create",
+      "url": "/instastories/#/create",
       "icons": [
         {
           "src": "images/add-x512.png",
