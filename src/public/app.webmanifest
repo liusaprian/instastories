@@ -65,7 +65,7 @@
       "name": "Story Baru",
       "short_name": "Baru",
       "description": "Bagikan story baru!",
-      "url": "/?source=pwa#/create",
+      "url": "/#/create",
       "icons": [
         {
           "src": "images/add-x512.png",
