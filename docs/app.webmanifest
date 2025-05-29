@@ -1,6 +1,6 @@
 {
-  "id": "/?source=pwa#/",
-  "start_url": "/?source=pwa#/",
+  "id": "/#/",
+  "start_url": "/#/",
   "scope": "/",
   "name": "Instastories App",
   "short_name": "Instastories",
