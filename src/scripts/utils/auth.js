@@ -1,5 +1,6 @@
 import { getActiveRoute } from '../routes/url-parser';
 import CONFIG from '../config';
+import LoginPage from '../pages/login/login-page';
 
 export function getAccessToken() {
   try {
@@ -55,7 +56,7 @@ export function checkAuthenticatedRoute(page) {
 
   if (!isLogin) {
     location.hash = '/login';
-    return null;
+    return new LoginPage();
   }
 
   return page;
